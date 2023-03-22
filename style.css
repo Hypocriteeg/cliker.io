@@ -1,0 +1,38 @@
+.Title {
+    font-size: 56px;
+    font-family: Consolas;
+    margin: 0;
+
+    text-align: center;
+
+}
+.contanier{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.button {
+    width: 200px;
+    height: 45px;
+
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+
+
+    cursor: pointer;
+    margin-top: 40px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    transform: scale(0,8);
+}
+.counter{
+    font-size: 30px;
+
+}
